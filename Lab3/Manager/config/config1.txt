@@ -1,0 +1,4 @@
+input_file = input.txt
+output_file = output.txt
+
+pipeline = ru.spbstu.akirillova.workers.FileReader, config\worker_configs\reader_config.txt; ru.spbstu.akirillova.workers.Substitutor, config\worker_configs\substitutor_config.txt; ru.spbstu.akirillova.workers.FileWriter, config\worker_configs\writer_config.txt
